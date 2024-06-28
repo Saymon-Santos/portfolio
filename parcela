@@ -1,0 +1,19 @@
+programa 
+{
+	funcao inicio()
+	{
+		real valorParcela, valorPago, pagoJuros, percJuros
+		
+		escreva("Digite o Valor da Parcela aqui: ")
+		leia(valorParcela)
+		escreva("Digite o Valor Pago aqui: ")
+		leia(valorPago)
+		
+		pagoJuros = valorPago - valorParcela
+		percJuros = (pagoJuros * 100) / valorParcela
+		
+		escreva("\nO Percentual de juros é: " + pagoJuros)	
+		escreva("\nO Juros Pagos foram: " + percJuros)
+	}
+	
+}

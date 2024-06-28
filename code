@@ -1,0 +1,36 @@
+Aluno: Saymon De Andrade Santos
+
+*Quais Serão Os valores que serão nas variáveis?
+
+		X = 5;
+		Y = 10;
+		A = "ADM";
+		B = "ADS";
+		C= "AM";
+		S = "AS";
+		P = 60
+		K = 100;
+------------------------------------------------------------------------
+
+	L1 = X % 2 == 0 - RESPOSTA: falso
+
+	L2 = X*2 == Y; - RESPOSTA: verdadeiro
+
+	L3 = A < S; - RESPOSTA: verdadeiro
+
+	L4 = "X" == S; - RESPOSTA: falso
+
+	L5 = "X" < S; - RESPOSTA: verdadeiro
+
+	L6 = B > C; - RESPOSTA: verdadeiro
+
+	L7 = P*2 <= K; - RESPOSTA: falso
+------------------------------------------------------------------------
+
+	Z1 = L1 && L2; - RESPOSTA: falso
+
+	Z2 = L4 && L3 || L5; - RESPOSTA: verdadeiro
+
+	Z3 = L2 && (L3 || L5); - RESPOSTA: verdadeiro
+
+	Z4 = L2 && !L7; - RESPOSTA: verdadeiro
